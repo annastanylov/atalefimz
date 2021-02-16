@@ -1,0 +1,316 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+
+h1{
+	font-family: Manrope;
+	font-weight: 800;
+ 	font-style: normal;
+ 	font-size: 144px;
+ 	margin: 30px 0;
+ 	color: #FFF3EB;
+}
+
+h2{
+	font-family: Manrope;
+	font-weight: 800;
+ 	font-style: normal;
+ 	font-size: 36px;
+ 	color: black;
+}
+
+
+h6{
+	font-family: Manrope;
+	font-weight: 400;
+ 	font-size: 15px;
+ 	margin: 0;
+ 	padding: 20px;
+ 	color: black;
+}
+
+h3{
+	font-family: Manrope;
+	font-weight: 800;
+ 	font-style: normal;
+ 	font-size: 72px;
+ 	margin: 20px 0;
+ 	color: #FFF3EB;
+}
+
+h4{
+	font-family: Manrope;
+	font-weight: 400;
+ 	font-style: normal;
+ 	font-size: 36px;
+ 	color: black;
+}
+
+p{
+	font-family: Manrope;
+	font-weight: 400;
+ 	font-style: normal;
+ 	font-size: 24px;
+ 	color: black;
+
+}
+
+.about{
+	background-image: url('images/orangebackground.png');
+	background-size: cover;
+	margin: 0px;
+}
+
+.one{
+	display: inline-block;
+	
+}
+
+.two{
+	position: absolute;
+	display: inline-block;
+	z-index: 1;
+	color: black;
+}
+
+
+.container{
+	width: 100%;
+	max-width: 1400px;
+	padding: 0 80px;
+	margin: 0;
+}
+
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+#marquee{
+	background-image: url('images/graybackground.jpg');
+	background-size: cover;
+	color: #C5FF1F;
+	font-family: Manrope;
+	font-weight: 400;
+ 	font-style: normal;
+ 	font-size: 36px;
+ 	width: 100%;
+
+
+}
+.rect{
+	width: 20%;
+	border: 1px solid black;
+	padding: 40px;
+
+}
+
+.rect img{
+	width: 100%;
+
+}
+
+.rect2{
+	width: 50%;
+	background: #C5FF1F;
+	border-color: #C5FF1F;
+	padding: 50px 20px;
+}
+
+.rect3{
+	width: 50%;
+	background: #C5FF1F;
+	border-color: #C5FF1F;
+	padding: 50px 20px;
+
+}
+
+.rect4{
+	width: 40%;
+	border: 1px solid white;
+	padding: 20px;
+
+}
+
+.rect4 img{
+	width:100%;
+}
+
+.rect5{
+	width: 40%;
+	border: 1px solid black;
+	padding: 20px;
+
+}
+
+.rect5 img{
+	width:100%;
+}
+
+.rect6{
+	width: 100%;
+	background: #ff6200;
+	border-color: #ff6200;
+	padding: 50px 20px;
+}
+
+.rect7{
+	width: 100%;
+	background: #C5FF1F;
+	border-color: #C5FF1F;
+	padding: 50px 20px;
+
+}
+
+.vid{ 
+	position: relative;
+	left:50%;
+	width: 100% ;
+	display: inline-block;
+	flex-wrap: wrap;
+}
+
+.col4{
+	width: 33.3%;
+	padding: 15px;
+}
+
+.col6{
+	width: 50%;
+	padding: 15px;
+}
+
+
+.offset2{
+	margin-left: 16.6%;
+}
+.offset3{
+	margin-left: 25%;
+}
+
+.col12{
+	width: 100%;
+	padding: 15px;
+}
+
+.col8{
+	width: 66.6%;
+	padding: 15px;
+}
+
+.first{	
+	color: black;
+	margin: 0;	
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+}
+
+.second{
+	background-image: url('images/graybackground.jpg');
+	background-size: cover;
+	color: white;
+	padding: 12%
+}
+#second{
+	font-family: Manrope;
+	font-weight: 400;
+ 	font-style: normal;
+ 	font-size: 24px;
+ 	color: white;
+}
+.third{
+	background-color:black;
+	color:white;
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+	padding-top: 10%;
+}
+
+.forth{
+	color: white;
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+
+}
+
+.fifth{
+	background-color:red;
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+
+}
+
+
+.six{
+	background-color:orange;
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+}
+
+
+.seventh{
+	background-color:black;
+	color:white;
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+}
+
+
+.eight{
+	color: white;
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+}
+
+
+.nine{
+	background-color:black;
+	color:white;
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+}
+
+
+.ten{
+	background-color:orange;
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+}
+
+.eleven{
+	color: white;
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+}
+
+
+.twelve{
+	background-color:red;
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+}
+
+
+.thirdteen{
+	background-color:black;
+	color:white;
+	background-image: url('images/whitebackground.png');
+	background-size: cover;
+}
+
+
+
+
+
+
+
